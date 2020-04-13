@@ -2,8 +2,28 @@
 <html>
     <head>
         <title>My Webpage</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            #Greeting {
+                font-size: 36px;
+            }
+            
+            .name {
+                font-weight: bolder;
+            }
+        </style>
     </head>
     <body>
-        Hello, World! Hi again!
+        <h1>Welcome to my Webpage</h1>
+        <img src="Bild.JPG" width="10%" title="Julia">
+        <form>
+            <input type="text" placeholder="Full Name" name="name">
+            <button>Submit!</button>
+        </form>
+        <h1>Ansage:</h1>
+        <p>Goenne mir eine gute Zeit</p>
+        <div id="Greeting">
+            Hello, World! This is a <span class="name">Greeting</span> for you old friend.
+        </div>
     </body>
 </html>
