@@ -1,0 +1,22 @@
+.carousel-inner img {
+margin: auto;
+}
+
+#carouselExampleControls {
+margin-left: 50px;
+margin-right: 50px;
+}
+
+.carousel-control-prev {
+margin-left: +350px;
+}
+
+.carousel-control-next {
+margin-right: +350px;
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/743986/pexels-photo-743986.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
