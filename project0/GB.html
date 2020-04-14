@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+        
+        <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -22,21 +23,18 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Theo Wiki
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="rauhaar.html">Rauhaardackel</a>
-                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="Daten.html">Daten</a>
                     <a class="dropdown-item" href="#">Something else here</a>
                   </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="GB.html">Gästebuch</a>
+                    <a class="nav-link disabled" href="GB.html">Nachricht an Theo</a>
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">
@@ -45,5 +43,26 @@
               </form>
             </div>
           </nav>
+          <form>
+            <div class="form-group w-25 m-4">
+              <label for="exampleFormControlInput1">Name</label>
+              <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+            </div>
+            <div class="form-group w-25 m-4">
+              <label for="exampleFormControlSelect1">Rating (1=Schlecht, 5=Top)</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group w-25 m-4">
+              <label for="exampleFormControlTextarea1">Deine Nachricht an Theo</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </form>
+          <button type="submit" class="btn btn-primary m-4">Senden</button>
     </body>
 </html>
